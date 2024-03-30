@@ -6,7 +6,7 @@
 
 ### Background
 
-Telemetron, a pioneering initiative under the SBIR (Small Business Innovation Research) program, aims to revolutionize the way Small / Mid Market Off Grid Oil pipelines monitor and manage SCADA PLC data streams. The overarching goal is to enhance data security and network efficiency, facilitating a more robust and encrypted data flow within the natural gas sector.
+Telemetron, a pioneering initiative under the SBIR (Small Business Innovation Research) program, aims to revolutionize the way to monitor and manage Critical Asset SCADA PLC data streams. The overarching goal is to enhance data security and network efficiency, facilitating a more robust and encrypted data flow within the natural gas sector.
 
 ### Challenge
 
