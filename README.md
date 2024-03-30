@@ -27,6 +27,10 @@ Telemetron proposes a novel technical architecture leveraging `nats.io` for high
 ### Technical Theoretical Architecture
 ```mermaid
 graph TD;
+    subgraph SourceSystem["Source Hardware"]
+        Z[Agnostic Hardware + OS]
+    end
+
     subgraph EdgeStack["Local City CDN Edge Node Software Stack"]
         A[SCADA PLC Systems] -->|Data Transmission| B[nats.io Messaging Layer]
         B -->|Secure, Scalable Messaging| C[Encrypted Data Flow]
@@ -46,6 +50,7 @@ graph TD;
     end
     
     EdgeStack -->|Data Aggregation & Preliminary Analysis| MothershipStack
+    SourceSystem -->|Rust and/or Go Binding| EdgeStack
     
     classDef edge fill:#f9f,stroke:#333,stroke-width:2px;
     classDef mothership fill:#bbf,stroke:#333,stroke-width:2px;
