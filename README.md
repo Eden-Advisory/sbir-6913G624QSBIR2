@@ -33,10 +33,11 @@ Service Mesh of the following repositories:
 graph TD;
     subgraph SourceSystem["Source Hardware"]
         Z[Agnostic Hardware + OS]
+        ZZ[yolov9-imgint-ynosis]
     end
 
     subgraph EdgeStack["Local City CDN Edge Node Software Stack"]
-        A[SCADA PLC Systems] -->|Data Transmission| B[nats.io Messaging Layer]
+        A[SCADA PLC Systems Synopsis] -->|Data Transmission| B[nats.io Messaging Layer]
         B -->|Secure, Scalable Messaging| C[Encrypted Data Flow]
         
         A -->|Configuration & Deployment| D[Ansible Automation]
