@@ -25,6 +25,10 @@ Telemetron proposes a novel technical architecture leveraging `nats.io` for high
 - **Streamline Integration**: Provide a flexible, scalable architecture that simplifies the integration of SCADA PLC systems with advanced data analytics and automation tools, enabling seamless data flow and interoperability.
 
 ### Technical Theoretical Architecture
+Service Mesh of the following repositories:
+- https://github.com/tobalo/synopsis
+- https://euclid.is
+- https://github.com/Ynosis/imgint
 ```mermaid
 graph TD;
     subgraph SourceSystem["Source Hardware"]
