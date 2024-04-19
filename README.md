@@ -4,6 +4,15 @@
 
 ## Telemetron Situation Appraisal: Phase 1
 
+### Team
+**Principal Investigator - Cristobal Torres**
+**Senior Data Scientest - Michelangiolo Mazzeschi**
+**Hardware Engineer - Kory Heard**
+**Master Principal Software Security Architect Allan Swanoepel**
+
+### Budget
+~100k USDC
+
 ### Background
 
 Telemetron, a pioneering initiative under the SBIR (Small Business Innovation Research) program, aims to revolutionize the way to monitor and manage Critical Asset SCADA PLC data streams. The overarching goal is to enhance data security and network efficiency, facilitating a more robust and encrypted data flow within the natural gas sector.
