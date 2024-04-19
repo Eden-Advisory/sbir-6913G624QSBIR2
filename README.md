@@ -6,7 +6,6 @@
 
 ### Team
 **Principal Investigator - Cristobal Torres**
-**Senior Data Scientest - Michelangiolo Mazzeschi**
 **Hardware Engineer - Kory Heard**
 **Master Principal Software Security Architect Allan Swanoepel**
 
