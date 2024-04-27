@@ -4,11 +4,6 @@
 
 ## Telemetron Situation Appraisal: Phase 1
 
-### Team
-**Principal Investigator - Cristobal Torres**
-**Hardware Engineer - Kory Heard**
-**Master Principal Software Security Architect Allan Swanoepel**
-
 ### Budget
 ~100k USDC
 
